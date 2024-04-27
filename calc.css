@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    
+    margin: 0;
+}
+
+header{
+    text-align: center;
+    padding: 20px;
+    color: blue;
+}
+
+header h1 {
+    margin: 0;
+    
+}
+
+
+.calculator {
+    border-radius: 20px;
+    background-color: black;
+    box-shadow: 0 0 15px rebeccapurple;
+    padding: 20px;
+    width: 300px;
+    margin: 120px auto;
+}
+
+.output {
+    font-size: 20px;
+    padding: 10px;
+    text-align: right;
+    border: none;
+    background-color: aqua;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    margin: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: aquamarine;
+    border-radius: 50%;
+}
+
+button:hover {
+    background-color: red;
+}
